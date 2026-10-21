@@ -1,6 +1,6 @@
 # Coding sample: effect sizes for a meta-analysis on social image
 
-This repository contains the R code I wrote as a research assistant for a meta-analysis on social image concerns and prosocial behavior. The code computes standardized effect sizes (Pearson's r and Fisher's z, with 95% confidence intervals) for an economics sample and a psychology sample, and plots them.
+This repository contains the R code I wrote as a research assistant for a meta-analysis on social image concerns and prosocial behavior in Dec 2025. The code computes standardized effect sizes (Pearson's r and Fisher's z, with 95% confidence intervals) for an economics sample and a psychology sample, and plots them.
 
 ## Files
 
