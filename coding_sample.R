@@ -1,14 +1,14 @@
 # This code sample computes standardized effect sizes (Pearson's r and Fisher's z, with
 # 95% confidence intervals) for studies on social image and prosocial behavior, and plots
 # them for an economics sample and a psychology sample as an input to a meta-analysis.
-# It was originally written as three separate R scripts (effects_sizes_MR.R,
+# It was originally written as three separate R scripts (effects_sizes.R,
 # effects_sizes_csv.R and graphs.R), which are shown here one after the other in a single
 # file.
 # The original goal of these scripts was to conduct a meta-analysis that I was asked to
 # do as an RA.
 
 # ========================================================================================
-# Script: effects_sizes_MR.R
+# Script: effects_sizes.R
 # ========================================================================================
 # This script records, paper by paper, the estimates reported in each study of the
 # economics sample (coefficient, standard error or p-value, and sample size), converts
@@ -762,7 +762,7 @@ str(metaAnalysis$N)
 
 # Load the economic sample data in a temporary environment
 temp_env <- new.env()
-source("effects_sizes_MR.R", local = temp_env)
+source("effects_sizes.R", local = temp_env)
 
 # Rename the dataframe from the economic sample
 econ_data <- temp_env$data_1 %>%
